@@ -43,7 +43,7 @@ console.log("countSubstrings gul => "+v.countSubstrings(newNames,`gul`))
 console.log("countSubstrings GUL => "+v.countSubstrings(newNames,`GUL`))
 
 
-console.log("countWhere newNames=> "+v.countWhere("a",newNames))     ///OLMADI
+console.log("countWhere newNames isString=> "+v.countWhere(newNames,v.isString))     
 
 
 
